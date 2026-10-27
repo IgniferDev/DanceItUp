@@ -1564,7 +1564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31618a3ad094afc46b7c15e8630b90b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChartRecorder
-  targetChart: {fileID: 11400000, guid: 84d2253739efd2f44a0fca390c1a11f0, type: 2}
+  targetChart: {fileID: 11400000, guid: 51a99a381a582514294ab18d648adff2, type: 2}
   audioSource: {fileID: 1627982978}
 --- !u!82 &1627982978
 AudioSource:

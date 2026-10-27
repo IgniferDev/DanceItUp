@@ -17,8 +17,6 @@ public class NoteSpawner : MonoBehaviour
     {
         noteIndex = 0;
 
-        // CÁLCULO OBJETIVO Y DINÁMICO:
-        // Distancia = Posición de la lane (ej. 4) menos la altura donde nacen (-6) = 10 unidades.
         float spawnY = -6.0f;
         float targetY = (lanes != null && lanes.Length > 0 && lanes[0] != null) ? lanes[0].position.y : 4.0f;
         float distance = Mathf.Abs(targetY - spawnY);
@@ -29,7 +27,7 @@ public class NoteSpawner : MonoBehaviour
             if (noteComponent != null)
             {
                 calculatedTravelTime = distance / noteComponent.speed;
-                Debug.Log($"[NoteSpawner] Distancia: {distance} | Velocidad: {noteComponent.speed} | Tiempo de viaje calculado: {calculatedTravelTime}s");
+                Debug.Log($"[NoteSpawner] Distancia: {distance} | Velocidad: {noteComponent.speed} | Tiempo de viaje: {calculatedTravelTime}s");
             }
         }
     }
@@ -45,15 +43,12 @@ public class NoteSpawner : MonoBehaviour
         {
             NoteEvent noteData = currentChart.notes[noteIndex];
             
-            // Tiempo de viaje dinámico + latencia opcional
             float spawnSongTime = noteData.time - calculatedTravelTime - globalLatencyOffset;
 
+            // Si ya es el momento (o la nota debió spawnear antes), la lanzamos sin restricciones
             if (songTime >= spawnSongTime)
             {
-                if (spawnSongTime >= 0f)
-                {
-                    SpawnNote(noteData.laneID);
-                }
+                SpawnNote(noteData.laneID);
                 noteIndex++;
             }
             else
@@ -68,11 +63,18 @@ public class NoteSpawner : MonoBehaviour
         if (laneID < 0 || laneID >= lanes.Length) return;
 
         Vector3 spawnPosition = lanes[laneID].position;
-        spawnPosition.y = -6f; // Altura donde nacen abajo
+        spawnPosition.y = -6f; 
 
         if (notePrefabs.Length > laneID && notePrefabs[laneID] != null)
         {
-            Instantiate(notePrefabs[laneID], spawnPosition, Quaternion.identity);
+            GameObject newNoteObj = Instantiate(notePrefabs[laneID], spawnPosition, Quaternion.identity);
+            
+            // Asignamos el carril a la nota
+            Note noteScript = newNoteObj.GetComponent<Note>();
+            if (noteScript != null)
+            {
+                noteScript.laneID = laneID;
+            }
         }
     }
 }
