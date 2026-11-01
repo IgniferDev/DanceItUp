@@ -15,6 +15,13 @@ public class NoteSpawner : MonoBehaviour
 
     void Start()
     {
+        // 🌟 AUTOMATIZACIÓN: Carga los datos de la canción seleccionada
+        if (GameManager.selectedSong != null)
+        {
+            currentChart = GameManager.selectedSong;
+            if (gameAudioSource != null) gameAudioSource.clip = currentChart.audioClip;
+        }
+        
         noteIndex = 0;
 
         float spawnY = -6.0f;

@@ -1,0 +1,519 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaac3978095e3d64c8bc2a6a30a594ba, type: 3}
+  m_Name: H4TE666
+  m_EditorClassIdentifier: Assembly-CSharp::SongChart
+  songName: H4TE666
+  artist: St4killazz
+  coverImage: {fileID: -4609518940576999675, guid: d3b3f1472d53b8d4a9c3227aaad6e3a9, type: 3}
+  audioClip: {fileID: 8300000, guid: 123acddd397e1954584206927c7f62a9, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: debb9b096956f1143aaa2fe76dfc2a13, type: 3}
+  previewStartTime: 30
+  notes:
+  - time: 1.1093197
+    laneID: 0
+  - time: 1.1306576
+    laneID: 4
+  - time: 2.5599773
+    laneID: 3
+  - time: 2.5813153
+    laneID: 1
+  - time: 4.0319953
+    laneID: 2
+  - time: 4.0319953
+    laneID: 0
+  - time: 5.482653
+    laneID: 4
+  - time: 5.482653
+    laneID: 2
+  - time: 6.9759865
+    laneID: 3
+  - time: 6.9759865
+    laneID: 1
+  - time: 8.447982
+    laneID: 1
+  - time: 8.469319
+    laneID: 0
+  - time: 9.983991
+    laneID: 3
+  - time: 10.005329
+    laneID: 4
+  - time: 11.498662
+    laneID: 0
+  - time: 11.519978
+    laneID: 2
+  - time: 12.223991
+    laneID: 2
+  - time: 12.245329
+    laneID: 4
+  - time: 12.970657
+    laneID: 0
+  - time: 12.970657
+    laneID: 4
+  - time: 13.354649
+    laneID: 0
+  - time: 13.354649
+    laneID: 4
+  - time: 13.717324
+    laneID: 0
+  - time: 13.717324
+    laneID: 4
+  - time: 14.079977
+    laneID: 4
+  - time: 14.079977
+    laneID: 0
+  - time: 14.463991
+    laneID: 3
+  - time: 14.463991
+    laneID: 1
+  - time: 14.805328
+    laneID: 1
+  - time: 14.826644
+    laneID: 3
+  - time: 15.18932
+    laneID: 1
+  - time: 15.210657
+    laneID: 3
+  - time: 15.530658
+    laneID: 1
+  - time: 15.551995
+    laneID: 3
+  - time: 15.957324
+    laneID: 0
+  - time: 15.957324
+    laneID: 2
+  - time: 16.277325
+    laneID: 0
+  - time: 16.298662
+    laneID: 2
+  - time: 16.682653
+    laneID: 0
+  - time: 16.70399
+    laneID: 2
+  - time: 17.045328
+    laneID: 0
+  - time: 17.066645
+    laneID: 2
+  - time: 17.407982
+    laneID: 2
+  - time: 17.407982
+    laneID: 3
+  - time: 17.770658
+    laneID: 3
+  - time: 17.770658
+    laneID: 2
+  - time: 18.175987
+    laneID: 2
+  - time: 18.175987
+    laneID: 3
+  - time: 18.517324
+    laneID: 2
+  - time: 18.517324
+    laneID: 3
+  - time: 18.901316
+    laneID: 0
+  - time: 18.94399
+    laneID: 4
+  - time: 19.26399
+    laneID: 0
+  - time: 19.285328
+    laneID: 4
+  - time: 19.626644
+    laneID: 0
+  - time: 19.647982
+    laneID: 4
+  - time: 20.010658
+    laneID: 0
+  - time: 20.031996
+    laneID: 4
+  - time: 20.37331
+    laneID: 3
+  - time: 20.394648
+    laneID: 1
+  - time: 20.735987
+    laneID: 3
+  - time: 20.735987
+    laneID: 1
+  - time: 21.119978
+    laneID: 1
+  - time: 21.119978
+    laneID: 3
+  - time: 21.482653
+    laneID: 1
+  - time: 21.50399
+    laneID: 3
+  - time: 21.909319
+    laneID: 2
+  - time: 22.058662
+    laneID: 0
+  - time: 22.271996
+    laneID: 4
+  - time: 22.442654
+    laneID: 2
+  - time: 22.677324
+    laneID: 2
+  - time: 22.826645
+    laneID: 0
+  - time: 23.018661
+    laneID: 4
+  - time: 23.18932
+    laneID: 2
+  - time: 23.42399
+    laneID: 2
+  - time: 23.594648
+    laneID: 0
+  - time: 23.743992
+    laneID: 4
+  - time: 23.914648
+    laneID: 2
+  - time: 24.106644
+    laneID: 2
+  - time: 24.277325
+    laneID: 0
+  - time: 24.426643
+    laneID: 4
+  - time: 24.853312
+    laneID: 0
+  - time: 25.002653
+    laneID: 1
+  - time: 25.215986
+    laneID: 2
+  - time: 25.386644
+    laneID: 3
+  - time: 25.599977
+    laneID: 3
+  - time: 25.74932
+    laneID: 4
+  - time: 25.941315
+    laneID: 2
+  - time: 26.111996
+    laneID: 3
+  - time: 26.303991
+    laneID: 0
+  - time: 26.517324
+    laneID: 2
+  - time: 26.666643
+    laneID: 1
+  - time: 26.858662
+    laneID: 4
+  - time: 27.02932
+    laneID: 2
+  - time: 27.221315
+    laneID: 3
+  - time: 27.413311
+    laneID: 0
+  - time: 27.797325
+    laneID: 4
+  - time: 27.797325
+    laneID: 0
+  - time: 28.159977
+    laneID: 0
+  - time: 28.181314
+    laneID: 4
+  - time: 28.543991
+    laneID: 1
+  - time: 28.543991
+    laneID: 3
+  - time: 28.906645
+    laneID: 3
+  - time: 28.906645
+    laneID: 1
+  - time: 29.26932
+    laneID: 0
+  - time: 29.290657
+    laneID: 4
+  - time: 29.65331
+    laneID: 0
+  - time: 29.65331
+    laneID: 4
+  - time: 30.037325
+    laneID: 2
+  - time: 30.037325
+    laneID: 0
+  - time: 30.378662
+    laneID: 0
+  - time: 30.421314
+    laneID: 2
+  - time: 30.762653
+    laneID: 0
+  - time: 31.10399
+    laneID: 1
+  - time: 31.44533
+    laneID: 2
+  - time: 31.786644
+    laneID: 3
+  - time: 32.17066
+    laneID: 4
+  - time: 32.575985
+    laneID: 3
+  - time: 32.938663
+    laneID: 2
+  - time: 33.301315
+    laneID: 1
+  - time: 33.68533
+    laneID: 0
+  - time: 34.026646
+    laneID: 1
+  - time: 34.38932
+    laneID: 2
+  - time: 34.815987
+    laneID: 3
+  - time: 35.17866
+    laneID: 4
+  - time: 35.541317
+    laneID: 3
+  - time: 35.925327
+    laneID: 2
+  - time: 36.30932
+    laneID: 1
+  - time: 36.650658
+    laneID: 1
+  - time: 36.650658
+    laneID: 0
+  - time: 37.01331
+    laneID: 1
+  - time: 37.01331
+    laneID: 0
+  - time: 37.397324
+    laneID: 0
+  - time: 37.397324
+    laneID: 1
+  - time: 37.781315
+    laneID: 1
+  - time: 37.781315
+    laneID: 0
+  - time: 38.16533
+    laneID: 3
+  - time: 38.16533
+    laneID: 4
+  - time: 38.52798
+    laneID: 3
+  - time: 38.52798
+    laneID: 4
+  - time: 38.911995
+    laneID: 4
+  - time: 38.911995
+    laneID: 3
+  - time: 39.295986
+    laneID: 4
+  - time: 39.295986
+    laneID: 3
+  - time: 39.637325
+    laneID: 4
+  - time: 39.637325
+    laneID: 2
+  - time: 40.021317
+    laneID: 4
+  - time: 40.021317
+    laneID: 2
+  - time: 40.40533
+    laneID: 4
+  - time: 40.40533
+    laneID: 2
+  - time: 40.767982
+    laneID: 2
+  - time: 40.767982
+    laneID: 4
+  - time: 41.130657
+    laneID: 0
+  - time: 41.130657
+    laneID: 1
+  - time: 41.51465
+    laneID: 0
+  - time: 41.51465
+    laneID: 1
+  - time: 41.877323
+    laneID: 0
+  - time: 41.877323
+    laneID: 1
+  - time: 42.23998
+    laneID: 1
+  - time: 42.23998
+    laneID: 0
+  - time: 42.62399
+    laneID: 0
+  - time: 42.815987
+    laneID: 2
+  - time: 43.00798
+    laneID: 0
+  - time: 43.157326
+    laneID: 1
+  - time: 43.391994
+    laneID: 0
+  - time: 43.562653
+    laneID: 2
+  - time: 43.775986
+    laneID: 0
+  - time: 43.861317
+    laneID: 1
+  - time: 44.159977
+    laneID: 4
+  - time: 44.287983
+    laneID: 2
+  - time: 44.501316
+    laneID: 4
+  - time: 44.671997
+    laneID: 3
+  - time: 44.86399
+    laneID: 4
+  - time: 45.03465
+    laneID: 2
+  - time: 45.20533
+    laneID: 4
+  - time: 45.418663
+    laneID: 3
+  - time: 45.631996
+    laneID: 4
+  - time: 45.951996
+    laneID: 2
+  - time: 46.293312
+    laneID: 0
+  - time: 46.677322
+    laneID: 1
+  - time: 47.039978
+    laneID: 0
+  - time: 47.381313
+    laneID: 2
+  - time: 47.765327
+    laneID: 4
+  - time: 48.127983
+    laneID: 3
+  - time: 48.511997
+    laneID: 3
+  - time: 48.895985
+    laneID: 3
+  - time: 49.237324
+    laneID: 3
+  - time: 49.642654
+    laneID: 3
+  - time: 50.026646
+    laneID: 1
+  - time: 50.36798
+    laneID: 1
+  - time: 50.751995
+    laneID: 1
+  - time: 51.114647
+    laneID: 1
+  - time: 51.477325
+    laneID: 0
+  - time: 51.861317
+    laneID: 0
+  - time: 52.22399
+    laneID: 0
+  - time: 52.586643
+    laneID: 0
+  - time: 52.970657
+    laneID: 4
+  - time: 53.33331
+    laneID: 4
+  - time: 53.695988
+    laneID: 4
+  - time: 54.058662
+    laneID: 4
+  - time: 54.46399
+    laneID: 0
+  - time: 54.80533
+    laneID: 0
+  - time: 55.18932
+    laneID: 0
+  - time: 55.21066
+    laneID: 3
+  - time: 55.551994
+    laneID: 3
+  - time: 55.551994
+    laneID: 0
+  - time: 55.91465
+    laneID: 4
+  - time: 56.277325
+    laneID: 4
+  - time: 56.661316
+    laneID: 1
+  - time: 56.68265
+    laneID: 4
+  - time: 57.04533
+    laneID: 1
+  - time: 57.066643
+    laneID: 4
+  - time: 57.42932
+    laneID: 2
+  - time: 57.813313
+    laneID: 2
+  - time: 58.175987
+    laneID: 4
+  - time: 58.175987
+    laneID: 0
+  - time: 58.517323
+    laneID: 0
+  - time: 58.538662
+    laneID: 4
+  - time: 58.922653
+    laneID: 2
+  - time: 59.285328
+    laneID: 2
+  - time: 59.626644
+    laneID: 1
+  - time: 59.626644
+    laneID: 3
+  - time: 59.98932
+    laneID: 1
+  - time: 60.01066
+    laneID: 3
+  - time: 60.39465
+    laneID: 0
+  - time: 60.415985
+    laneID: 4
+  - time: 61.866646
+    laneID: 1
+  - time: 61.866646
+    laneID: 3
+  - time: 63.33866
+    laneID: 2
+  - time: 63.33866
+    laneID: 0
+  - time: 64.85331
+    laneID: 2
+  - time: 64.85331
+    laneID: 4
+  - time: 65.55733
+    laneID: 1
+  - time: 65.74932
+    laneID: 2
+  - time: 65.941315
+    laneID: 3
+  - time: 66.325325
+    laneID: 4
+  - time: 66.325325
+    laneID: 0
+  - time: 67.818665
+    laneID: 3
+  - time: 67.818665
+    laneID: 4
+  - time: 68.50131
+    laneID: 1
+  - time: 68.714645
+    laneID: 2
+  - time: 68.88533
+    laneID: 0
+  - time: 69.29066
+    laneID: 4
+  - time: 69.29066
+    laneID: 0
+  - time: 70.76265
+    laneID: 3
+  - time: 70.76265
+    laneID: 1
+  - time: 71.57331
+    laneID: 0
+  - time: 71.70132
+    laneID: 2
+  - time: 71.91465
+    laneID: 4

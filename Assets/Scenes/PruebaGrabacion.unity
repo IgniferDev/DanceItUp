@@ -165,7 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50652ce4b49dcb4da92985b7699eb07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaneController
-  laneID: 2
 --- !u!61 &13424784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -834,7 +833,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50652ce4b49dcb4da92985b7699eb07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaneController
-  laneID: 3
 --- !u!61 &1034610486
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -927,7 +925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50652ce4b49dcb4da92985b7699eb07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaneController
-  laneID: 0
 --- !u!61 &1118609100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1148,7 +1145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50652ce4b49dcb4da92985b7699eb07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaneController
-  laneID: 1
 --- !u!61 &1243929289
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1241,7 +1237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50652ce4b49dcb4da92985b7699eb07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaneController
-  laneID: 4
 --- !u!61 &1308672029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1517,8 +1512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b72ad8dd2763b04a8df5e662c0b67a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
-  scoreText: {fileID: 939043536}
-  comboText: {fileID: 1711968262}
 --- !u!4 &1608096942
 Transform:
   m_ObjectHideFlags: 0
@@ -1564,7 +1557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31618a3ad094afc46b7c15e8630b90b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChartRecorder
-  targetChart: {fileID: 11400000, guid: 51a99a381a582514294ab18d648adff2, type: 2}
+  targetChart: {fileID: 11400000, guid: 84d2253739efd2f44a0fca390c1a11f0, type: 2}
   audioSource: {fileID: 1627982978}
 --- !u!82 &1627982978
 AudioSource:
@@ -2117,56 +2110,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1948939635
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1948939637}
-  - component: {fileID: 1948939636}
-  m_Layer: 0
-  m_Name: InputManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1948939636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948939635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8701def6001e8a24fbea0da4abc6e026, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InputManager
-  lanes:
-  - {fileID: 1118609099}
-  - {fileID: 1243929288}
-  - {fileID: 13424783}
-  - {fileID: 1034610485}
-  - {fileID: 1308672028}
---- !u!4 &1948939637
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948939635}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.99147, y: 0.37655, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1949067934
 GameObject:
   m_ObjectHideFlags: 0
@@ -2311,11 +2254,10 @@ SceneRoots:
   - {fileID: 1853986092}
   - {fileID: 1627982979}
   - {fileID: 482588574}
-  - {fileID: 1948939637}
+  - {fileID: 1728292400}
   - {fileID: 1381425960}
   - {fileID: 1739746561}
   - {fileID: 187459000}
   - {fileID: 1175738023}
   - {fileID: 1949067938}
-  - {fileID: 1728292400}
   - {fileID: 1608096942}
