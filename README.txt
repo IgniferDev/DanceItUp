@@ -1,4 +1,4 @@
-# 🎵 [Nombre de tu Juego]
+# 🎵 DanceItUp
 
 ![Unity](https://img.shields.io/badge/Unity-6-black?style=flat-square&logo=unity)
 ![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat-square&logo=android)
@@ -25,7 +25,7 @@ Este proyecto nace de la pasión por los juegos de ritmo arcade y el deseo de tr
 Puedes descargar la versión más reciente del juego directamente desde este repositorio.
 
 1. Ve a la pestaña de [Releases](../../releases/latest) a la derecha de esta página.
-2. Descarga el archivo `[NombreDelJuego]_v1.0.0.apk` desde la sección *Assets*.
+2. Descarga el archivo `DanceItUp_v1.0.0.apk` desde la sección *Assets*.
 3. Pásalo a tu dispositivo Android.
 4. Abre el archivo y permite la instalación de aplicaciones de orígenes desconocidos si tu dispositivo lo solicita.
 5. ¡A jugar!
